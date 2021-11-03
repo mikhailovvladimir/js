@@ -17,3 +17,8 @@ function pushInArray() {
     arr.push(element);
     getArr();
 }
+
+function deleteInArray() {
+    arr.pop();
+    getArr();
+}
